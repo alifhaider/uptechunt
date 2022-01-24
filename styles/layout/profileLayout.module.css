@@ -1,0 +1,19 @@
+.hero {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  width: min(100%, 1900px);
+  z-index: 1;
+}
+
+.hero__image {
+  height: 100%;
+  z-index: 1;
+}
+
+.content {
+  min-height: calc(100vh - 400px);
+  padding: 0 10%;
+  width: 100%;
+  max-width: 1900px;
+}
